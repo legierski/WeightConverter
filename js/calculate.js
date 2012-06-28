@@ -3,7 +3,7 @@ $(document).ready(function() {
 	source = $('.ajax-source');
 	target = $('.ajax-target');
 
-	$('.ajax-convert-trigger').click(function() {
+	$('.ajax-convert-trigger').tap(function() {
 		
 		var option = $('.ajax-radio.active').attr('data-radio-value');
 
@@ -20,7 +20,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('.ajax-radio').click(function() {
+	$('.ajax-radio').tap(function() {
 
 		$('.ajax-radio').removeClass('active');
 		$(this).addClass('active');
