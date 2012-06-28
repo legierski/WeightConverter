@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WeightConverter</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/calculate.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="form">
+						<div class="btn-group group-select" data-toggle="buttons-radio">
+						  <button class="btn active ajax-radio" data-radio-value="1">stones <i class="icon-arrow-right"></i> kg</button>
+						  <button class="btn ajax-radio" data-radio-value="2">kg <i class="icon-arrow-right"></i> stones</button>
+						</div>
+						<form>
+							<input type="number" placeholder="Weight in stones..." class="ajax-source source">
+							<input type="submit" class="btn btn-large btn-primary ajax-convert-trigger trigger" value="Convert!">
+							<input type="text" placeholder="Weight in kg..." readonly="readonly" class="ajax-target target">
+						</form>
+					</div>
+					<div class="footer">
+						<span>created by <a href="https://twitter.com/peterlegierski">@PeterLegierski</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

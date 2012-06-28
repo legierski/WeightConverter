@@ -1,0 +1,22 @@
+{
+	"author": "peter@legierski.net", 
+	"config_version": "2", 
+	"description": "WeightConverter - Convert kilograms to stones and stones to kilograms", 
+	"modules": {
+		"icons": {
+			"android": {
+				"36": "img/icons/36px.png", 
+				"48": "img/icons/48px.png", 
+				"72": "img/icons/72px.png"
+			}
+		}, 
+		"launchimage": {
+			"android": "img/splashscreen.png",
+			"android-landscape": "img/splashscreen.png"
+		}, 
+		"topbar": true
+	}, 
+	"name": "WeightConverter", 
+	"platform_version": "v1.3", 
+	"version": "0.1"
+}
